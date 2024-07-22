@@ -1,0 +1,16 @@
+main {
+    margin-top: 100px;
+}
+/* HEADER */
+header .navbar-nav {
+    gap: 8px;
+}
+
+header .nav-item a {
+    font-size: 17px;
+    color: #010101;
+}
+
+header .nav-item img {
+    width: 9px;
+}
