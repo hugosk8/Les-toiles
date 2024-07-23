@@ -73,8 +73,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Item With Sub -->
                             <li>
-                                <a href="#" class="mn-has-sub active">Accueil <i class="mi-chevron-down"></i></a>
-                                
+                                <a href="?p=home" class="mn-has-sub active">Accueil <i class="mi-chevron-down"></i></a>
                                 <!-- Sub -->
                                 <ul class="mn-sub">
                                     
@@ -889,8 +888,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Item With Sub -->
                             <li>
-                                <a href="#" class="mn-has-sub">Cours de couture <i class="mi-chevron-down"></i></a>
-                                
+                                <a href="?p=cours-de-couture" class="mn-has-sub">Cours de couture <i class="mi-chevron-down"></i></a>
                                 <!-- Sub Megamenu -->
                                 <ul class="mn-sub mn-has-multi">
                                     
@@ -989,8 +987,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Item With Sub -->
                             <li>
-                                <a href="#" class="mn-has-sub">Retouches <i class="mi-chevron-down"></i></a>
-                                
+                                <a href="?p=retouches" class="mn-has-sub">Retouches <i class="mi-chevron-down"></i></a>
                                 <!-- Sub Megamenu -->
                                 <ul class="mn-sub mn-has-multi">
                                     
@@ -1094,7 +1091,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <!-- Item With Sub -->
                             <li>
                                 <a href="#" class="mn-has-sub">Créations sur mesure <i class="mi-chevron-down"></i></a>
-                                
                                 <!-- Sub -->
                                 <ul class="mn-sub">
                                     
@@ -1175,7 +1171,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <!-- Item With Sub -->
                             <li>
                                 <a href="#" class="mn-has-sub">Atelier zéro dechets <i class="mi-chevron-down"></i></a>
-                                
                                 <!-- Sub -->
                                 <ul class="mn-sub">
                                     
@@ -1236,7 +1231,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <!-- Item With Sub -->
                             <li>
                                 <a href="#" class="mn-has-sub">Mercerie <i class="mi-chevron-down"></i></a>
-                                
                                 <!-- Sub -->
                                 <ul class="mn-sub">
                                     
@@ -1297,7 +1291,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <!-- Item With Sub -->
                             <li>
                                 <a href="#" class="mn-has-sub">Contact <i class="mi-chevron-down"></i></a>
-                                
                                 <!-- Sub -->
                                 <ul class="mn-sub">
                                     
@@ -1384,6 +1377,120 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
             
             <main id="main">
                 <?= $content ?>
+
+                <!-- Contact Section -->
+                <section class="page-section pt-0" id="contact">
+                    <div class="container position-relative wow fadeInUp">
+                        <div class="row mb-60 mb-sm-50">
+                            <div class="col-lg-6 mb-sm-50">
+                                <div class="pe-lg-5">
+                                    <h2 class="section-caption mb-xs-10 mb-0">Contactez nous</h2>
+                                    <h2 class="contact-title mb-2">Vous avez une question ?</h2>
+                                    <p class="text-gray mb-0 fs-12">
+                                        Alors, comme à chaque question, il existe une — ou plusieurs — réponses, contactez-moi.
+                                        <br>
+                                        Je me ferai une joie de vous répondre !
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <!-- Contact Item -->
+                                    <div class="col-sm-6 mb-xs-30 d-flex align-items-stretch">
+                                        <div class="alt-features-item border-left mt-0">
+                                            <div class="alt-features-icon">
+                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="48" height="64" viewBox="0 0 48 64">
+                                                    <path d="M45.375 41.375c1.5 0 2.625 1.125 2.625 2.625v9.375c0 1.5-1.125 2.625-2.625 2.625-25.125 0-45.375-20.25-45.375-45.375 0-1.5 1.125-2.625 2.625-2.625h9.375c1.5 0 2.625 1.125 2.625 2.625 0 3.375 0.5 6.5 1.625 9.625 0.25 0.875 0 2-0.625 2.625l-5.875 5.875c3.875 7.625 10 13.75 17.625 17.625l5.875-5.875c0.625-0.75 1.75-0.875 2.625-0.625 2.875 0.875 6.125 1.5 9.5 1.5z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <h4 class="alt-features-title">Contact</h4>
+                                            <div class="alt-features-descr clearlinks">
+                                                <div><a href="mailto:">email</a></div>
+                                                <div><a href="tel:0661591091">06 61 59 10 91</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Contact Item -->
+                                    
+                                    <!-- Contact Item -->
+                                    <div class="col-sm-6 d-flex align-items-stretch">
+                                        <div class="alt-features-item border-left mt-0">
+                                            <div class="alt-features-icon">
+                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="40" height="64" viewBox="0 0 40 64">
+                                                    <path d="M20 4c11 0 20 8.875 20 19.625 0 14.75-20 36.375-20 36.375s-20-21.625-20-36.375c0-10.75 9-19.625 20-19.625zM20 30.625c4 0 7.125-3.125 7.125-7s-3.125-7-7.125-7-7.125 3.125-7.125 7 3.125 7 7.125 7z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <h4 class="alt-features-title">Adresse</h4>
+                                            <div class="alt-features-descr">
+                                                123 King Street,<br> London W6 9JG,<br> United Kingdom 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Contact Item -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-sm-50">
+                                <!-- Contact Form -->
+                                <form class="form contact-form pe-lg-5" id="contact_form">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <!-- Name -->
+                                            <div class="form-group">
+                                                <label for="name">Nom et prénom</label>
+                                                <input type="text" name="name" id="name" class="input-lg round form-control" placeholder="renseignez votre nom entier" pattern=".{3,100}" required aria-required="true">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <!-- Email -->
+                                            <div class="form-group">
+                                                <label for="email">Email</label>
+                                                <input type="email" name="email" id="email" class="input-lg round form-control" placeholder="Renseignez votre email" pattern=".{5,100}" required aria-required="true">
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <!-- Message -->
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message" class="input-lg round form-control" style="height: 130px;" placeholder="Ecrivez votre message"></textarea>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-5">
+                                            <!-- Send Button -->
+                                            <div class="pt-20">
+                                                <button class="submit_btn btn btn-mod btn-large btn-round btn-hover-anim" id="submit_btn" aria-controls="result">
+                                                    <span>Envoyer le Message</span>
+                                                </button>
+                                            </div>                              
+                                        </div>
+                                        <div class="col-lg-7">
+                                            <!-- Inform Tip -->
+                                            <div class="form-tip pt-20 pt-sm-0 mt-sm-20">
+                                                <i class="icon-info size-16"></i>
+                                                All the fields are required. By sending the form you agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="result" role="region" aria-live="polite" aria-atomic="true"></div>
+                                </form>
+                                <!-- End Contact Form -->
+                            </div>
+                            <div class="col-md-6 d-flex align-items-stretch">
+                                <!-- Google Map -->
+                                <div class="map-boxed">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3071.5318265717196!2d-75.60465104752062!3d39.660249785873326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c703f3cdadbfdb%3A0x80d20252268fc006!2zMjQ1IFF1aWdsZXkgQmx2ZCBzdGUgaywgTmV3IENhc3RsZSwgREUgMTk3MjAsINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1662469609333!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                                <!-- End Google Map -->
+                            </div>
+                        </div>   
+                    </div>
+                </section>
+                <!-- End Contact Section -->
             </main>
             
             <!-- Footer -->
@@ -1422,8 +1529,8 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                     
                                     <ul class="fw-menu clearlist">                                        
                                         <li><a href="#">Accueil</a></li>
-                                        <li><a href="#">Cours de couture</a></li>
-                                        <li><a href="#">Retouches</a></li>
+                                        <li><a href="?p=cours-de-couture">Cours de couture</a></li>
+                                        <li><a href="?p=retouches">Retouches</a></li>
                                         <li><a href="#">Création sur mesure</a></li>
                                         <li><a href="#">Atelier zéro déchets</a></li>
                                         <li><a href="#">Mercerie</a></li>

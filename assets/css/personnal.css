@@ -11,7 +11,11 @@
 }
 
 .mt-6{
-    margin-top:6rem!important
+    margin-top: 6rem!important
+}
+
+.mb-6{
+    margin-bottom: 6rem!important
 }
 
 .text-right {
@@ -33,4 +37,14 @@ section#creations {
 section#contact .contact-title {
     font-size: 56px ;
     font-weight: 500 ;
+}
+
+section.cours-de-couture img.wow.scaleOutIn {
+    width: 1500px;
+    height: 844px;
+}
+
+img.image-fullwidth.relative.large {
+    width: 630px;
+    height: 370px;
 }
