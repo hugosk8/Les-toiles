@@ -1,0 +1,36 @@
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.mt-6{
+    margin-top:6rem!important
+}
+
+.text-right {
+    text-align: right;
+}
+
+section#creations {
+    background-color: #F7E7E74D;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.right-12 {
+    right: 12px;
+}
+
+section#contact .contact-title {
+    font-size: 56px ;
+    font-weight: 500 ;
+}
