@@ -44,11 +44,11 @@
 <!-- End Home Section -->
 
 <!-- Benefits Section -->
-<section class="page-section" id="creations-sect-2">
+<section class="page-section pt-140 pb-20" id="creations-sect-2">
     <div class="container position-relative">
         <div class="row">
             <!-- Image Column -->
-            <div class="col-lg-5 col-xl-5 d-flex align-items-center">
+            <div class="col-lg-5 col-xl-4 d-flex align-items-center">
                 <div class="position-relative">
                     <div class="position-relative overflow-hidden">
                         <img src="<?= URL ?>assets/images/creations/working2.webp" class="image-fullwidth relative" alt="Image Description" />
@@ -58,9 +58,9 @@
             <!-- End Image Column -->
 
             <!-- Section Text -->
-            <div class="col-lg-7 col-xl-6 offset-xl-1 d-flex align-items-center mb-md-60 mb-sm-40">
+            <div class="col-lg-7 col-xl-7 offset-xl-1 d-flex align-items-center mb-md-60 mb-sm-40">
                 <div class="w-100">
-                    <h3 class="section-title mb-30">
+                    <h3 class="section-title mb-30 fs-44">
                         Un mariage, un événement ou une simple envie : les Toiles 3C2R vous proposent leurs créations de couture sur mesure
                     </h3>
                     <p class="section-descr mb-50 mb-sm-30">
@@ -75,7 +75,7 @@
 <!-- End Benefits Section -->
 
 <!-- Benefits Section -->
-<section class="page-section" id="creation-sect-3">
+<section class="page-section pt-0" id="creation-sect-3">
     <div class="container position-relative">
         <div class="row mt-6">
             <!-- Section Text -->
@@ -127,7 +127,7 @@
 <section class="page-section" id="creation-separator"></section>
 
 <!-- Benefits Section -->
-<section class="page-section" id="last">
+<section class="page-section pt-20 pb-20" id="last">
     <div class="container position-relative">
         <div class="row mt-6">
             <!-- Image Column -->

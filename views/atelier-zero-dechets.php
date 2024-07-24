@@ -1,5 +1,5 @@
 <!-- Header Section -->
-<section class="page-section pt-0 pb-0 cours-de-couture" id="home">
+<section class="page-section pt-0 pb-0 cours-de-couture" id="atelier-banner">
     <div class="page-section parallax-5" style="background-image: url(images/full-width-images/section-bg-1.jpg)">
         <div class="container position-relative pt-50 pb-100 pb-sm-20">
             <!-- Section Content -->
@@ -43,11 +43,11 @@
 <!-- End Header Section -->
 
 <!-- Benefits Section -->
-<section class="page-section">
+<section class="page-section pt-0">
     <div class="container position-relative">
         <div class="row">
             <!-- Section Text -->
-            <div class="col-lg-5 col-xl-5 d-flex align-items-center mb-md-60 mb-sm-40">
+            <div class="col-lg-5 col-xl-7 d-flex align-items-center mb-md-60 mb-sm-40">
                 <div class="w-100">
                     <h3 class="section-title mb-30">
                         Participez aux ateliers couture « Zéro déchet » et faites des économies
@@ -60,7 +60,7 @@
             <!-- End Section Text -->
             
             <!-- Image Column -->
-            <div class="col-lg-7 col-xl-6 offset-xl-1 d-flex align-items-center">
+            <div class="col-lg-7 col-xl-5 d-flex align-items-center">
                 <div class="position-relative">
                     <div class="position-relative overflow-hidden">
                         <img src="<?= URL ?>assets/images/cours-de-couture/working1.webp" class="image-fullwidth relative" alt="Image Description" />
@@ -76,7 +76,7 @@
 <section class="page-section" id="creation-separator"></section>
 
 <!-- Benefits Section -->
-<section class="page-section" id="atelier-sect-3">
+<section class="page-section pt-0" id="atelier-sect-3">
     <div class="container position-relative">
         <div class="row mt-6">
             <!-- Image Column -->
@@ -109,9 +109,9 @@
 <!-- End Benefits Section -->
 
 <!-- Benefits Section -->
-<section class="page-section" id="atelier-last">
+<section class="page-section py-0" id="atelier-last">
     <div class="container position-relative">
-        <div class="row mt-6">
+        <div class="row">
             <!-- Section Text -->
             <div class="col-lg-5 col-xl-5 d-flex align-items-center mb-md-60 mb-sm-40">
                 <div class="w-100">
@@ -136,7 +136,7 @@
             <div class="col-lg-7 col-xl-6 offset-xl-1 d-flex align-items-center">
                 <div class="position-relative">
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/cours-de-couture/working6.webp" class="image-fullwidth relative large" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/cours-de-couture/working6.webp" class="image-fullwidth relative large first" alt="Image Description" />
                     </div>
                     <div class="position-relative overflow-hidden mb-5">
                         <img src="<?= URL ?>assets/images/atelier/working2.webp" class="image-fullwidth relative large" alt="Image Description" />

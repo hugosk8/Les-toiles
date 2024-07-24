@@ -1,3 +1,7 @@
+.fs-44 {
+    font-size: 44px;
+}
+
 .fs-20 {
     font-size: 20px;
 }
@@ -22,8 +26,13 @@
     text-align: right;
 }
 
+/* Accueil */
+section#home-banner {
+    background-color: #e7cfcf;
+}
+
 section#creations {
-    background-color: #F7E7E74D;
+    background-color: #f7e5e54d;
 }
 
 .absolute {
@@ -50,6 +59,15 @@ img.image-fullwidth.relative.large {
 }
 
 /* retouches */
+section#retouches-banner {
+    background-color: #F7E7E74D;
+}
+
+section#retouches-sect-2 img {
+    width: 558px;
+    height: 448px;
+}
+
 section#retouches {
     background-color: #F7E7E74D;
 }
@@ -80,10 +98,20 @@ section#last img {
 }
 
 /* Atelier zero dechet */
+section#atelier-banner {
+    background-color: #f8f0f0;
+    max-height: 963px;
+    margin-bottom: 650px;
+}
+
 section#atelier-sect-3 img {
     height: 611px;
 }
 
 section#atelier-last img {
     height: 416px;
+}
+
+section#atelier-last img.first {
+    margin-bottom: 20px;
 }

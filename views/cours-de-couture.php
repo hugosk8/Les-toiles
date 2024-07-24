@@ -1,12 +1,12 @@
 <!-- Header Section -->
-<section class="page-section pt-0 pb-0 cours-de-couture" id="home">
+<section class="page-section pt-0 pb-0 cours-de-couture" id="atelier-banner">
     <div class="page-section parallax-5" style="background-image: url(images/full-width-images/section-bg-1.jpg)">
         <div class="container position-relative pt-50 pb-100 pb-sm-20">
             <!-- Section Content -->
             <div class="text-center">
                 <div class="row">
                     <!-- Page Title -->
-                    <div class="col-md-8 offset-md-2">
+                    <div class="col-md-10 offset-md-1">
                         <h2 class="section-caption-border mb-30 mb-xs-20 wow fadeInUp" data-wow-duration="1.2s">
                             Cours de couture
                         </h2>
@@ -18,7 +18,7 @@
                             </span>
                         </h1>
                         <div class="row">
-                            <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                            <div class="col-md-10 offset-md-1 col-lg-10 offset-lg-1">
                                 <p class="section-descr mb-0 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1.2s">
                                     Découvrez la joie de coudre avec les cours de couture des Toiles 3C2R à Lille : apprenez les techniques pour créer de magnifiques vêtements
                                 </p>
@@ -43,23 +43,18 @@
 <!-- End Header Section -->
 
 <!-- Benefits Section -->
-<section class="page-section">
+<section class="page-section py-0">
     <div class="container position-relative">
-    
         <div class="row">
-            
             <!-- Section Text -->
             <div class="col-lg-5 col-xl-5 d-flex align-items-center mb-md-60 mb-sm-40">
                 <div class="w-100">
-                    
                     <h3 class="section-title mb-30">
                         Joignez l’utile à l'agréable, participez aux cours de couture des Toiles 3C2R
                     </h3>
-                    
                     <p class="section-descr mb-50 mb-sm-30">
                         Créer soi-même ses propres habits, savoir les réparer lorsqu’un accroc ou un défaut apparaissent, rallonger, les agrandir ou les raccourcir pour qu’ils soient à la bonne taille... La couture, c’est la liberté et le pouvoir de profiter de vêtements parfaitement adaptés à son corps. Et c’est tout d’abord un plaisir. Mes cours de couture s’adressent à tous les amateurs de DIY, à celles et ceux qui s’épanouissent, comme moi, en travaillant et produisant avec leurs mains. Mon objectif est de transmettre mon savoir-faire et mon amour pour la couture, en créant un environnement convivial et ludique.
                     </p>
-                    
                 </div>
             </div>
             <!-- End Section Text -->
@@ -67,13 +62,9 @@
             <!-- Image Column -->
             <div class="col-lg-7 col-xl-6 offset-xl-1 d-flex align-items-center">
                 <div class="position-relative">
-                    
-                    <!-- Image -->
                     <div class="position-relative overflow-hidden">
                         <img src="<?= URL ?>assets/images/cours-de-couture/working1.webp" class="image-fullwidth relative" alt="Image Description" />
                     </div>
-                    <!-- End Image -->
-                    
                 </div>                             
             </div>
             <!-- End Image Column -->

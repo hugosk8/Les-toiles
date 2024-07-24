@@ -1,5 +1,5 @@
 <!-- Header Section -->
-<section class="page-section bg-gray-light-1 bg-light-alpha-90 parallax-5" style="background-image: url(images/full-width-images/section-bg-1.jpg)">
+<section class="page-section parallax-5" style="background-image: url(images/full-width-images/section-bg-1.jpg)" id="retouches-banner">
     <div class="container position-relative">
         <!-- Section Content -->
         <div class="text-center">
@@ -27,6 +27,7 @@
     </div>
 </section>
 <!-- End Header Section -->
+
 <!-- Marquee Section -->
 <div class="page-section overflow-hidden pt-0 pb-0">
     <!-- Marquee Text Line -->
@@ -53,48 +54,38 @@
 <!-- End Marquee Section -->
 
 <!-- Benefits Section -->
-<section class="page-section">
+<section class="page-section" id="retouches-sect-2">
     <div class="container position-relative">
-    
         <div class="row">
-            
             <!-- Section Text -->
-            <div class="col-lg-7 col-xl-6 d-flex align-items-center mb-md-60 mb-sm-40">
+            <div class="col-lg-7 col-xl-7 d-flex align-items-center mb-md-60 mb-sm-40">
                 <div class="w-100">
-                    
                     <h3 class="section-title mb-30">
                         Faites durer vos vêtements avec votre spécialiste en retouches couture à Lille
                     </h3>
-                    
                     <p class="section-descr mb-50 mb-sm-30">
                         Vous avez toutes et tous eu un vêtement que vous adoriez et qui, un jour, a connu un accident ou s’est tout simplement démodé. C’est avec une vraie peine que vous avez dû vous en débarrasser. La retouche permet dans la plupart des cas d’éviter ces petites blessures. Retrouver l’éclat d’une jupe ou d’un pantalon que l’on croyait voué à la poubelle, c’est un beau cadeau. Et qui fait du bien à notre planète !
                     </p>
-                    
                 </div>
             </div>
             <!-- End Section Text -->
             
             <!-- Image Column -->
-            <div class="col-lg-5 col-xl-5 offset-xl-1 d-flex align-items-center">
+            <div class="col-lg-5 col-xl-5 d-flex align-items-center">
                 <div class="position-relative">
-                    
-                    <!-- Image -->
                     <div class="position-relative overflow-hidden">
                         <img src="<?= URL ?>assets/images/retouches/working1.webp" class="image-fullwidth relative" alt="Image Description" />
                     </div>
-                    <!-- End Image -->
-                    
                 </div>                             
             </div>
-            <!-- End Image Column -->                               
-                    
+            <!-- End Image Column -->
         </div>
     </div>
 </section>
 <!-- End Benefits Section -->
 
 <!-- Steps Section -->
-<section class="page-section" id="retouches">
+<section class="page-section pt-50 pb-50" id="retouches">
     <div class="container position-relative">
         
         <div class="row mb-60 mb-sm-40">
@@ -179,7 +170,7 @@
 <!-- End Steps Section -->
 
 <!-- Benefits Section -->
-<section class="page-section">
+<section class="page-section pt-0 pb-30">
     <div class="container position-relative">
         <div class="row mt-6">
             <!-- Image Column -->
