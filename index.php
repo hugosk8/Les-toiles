@@ -21,6 +21,9 @@ switch ($page) {
     case 'creation-sur-mesure':
         require 'views/creation-sur-mesure.php';
         break;
+    case 'atelier-zero-dechets':
+        require 'views/atelier-zero-dechets.php';
+        break;
 }
 $content = ob_get_clean();
 
