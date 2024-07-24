@@ -73,16 +73,13 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Item With Sub -->
                             <li>
-                                <a href="?p=home" class="mn-has-sub active">Accueil <i class="mi-chevron-down"></i></a>
+                                <a href="/" class="mn-has-sub active">Accueil <i class="mi-chevron-down"></i></a>
                                 <!-- Sub -->
                                 <ul class="mn-sub">
-                                    
                                     <li>
                                         <a href="#" class="mn-has-sub">Main <i class="mi-chevron-right right"></i></a>
-                                        
                                         <!-- Sub Sub -->
                                         <ul class="mn-sub">
-                                            
                                             <li>
                                                 <a href="#" class="mn-has-sub">Main Demo <i class="mi-chevron-right right"></i></a>
                                                 
@@ -888,13 +885,11 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Item With Sub -->
                             <li>
-                                <a href="?p=cours-de-couture" class="mn-has-sub">Cours de couture <i class="mi-chevron-down"></i></a>
+                                <a href="/cours-de-couture" class="mn-has-sub">Cours de couture <i class="mi-chevron-down"></i></a>
                                 <!-- Sub Megamenu -->
                                 <ul class="mn-sub mn-has-multi">
-                                    
                                     <li class="mn-sub-multi">
                                         <span class="mn-group-title">Group 1</span>
-                                        
                                         <ul>
                                             <li>
                                                 <a href="main-pages-about-1.html" target="_blank">About Us 1</a>
@@ -987,12 +982,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Item With Sub -->
                             <li>
-                                <a href="?p=retouches" class="mn-has-sub">Retouches <i class="mi-chevron-down"></i></a>
+                                <a href="/retouches" class="mn-has-sub">Retouches <i class="mi-chevron-down"></i></a>
                                 <!-- Sub Megamenu -->
                                 <ul class="mn-sub mn-has-multi">
-                                    
                                     <li class="mn-sub-multi">
-                                        
                                         <ul>
                                             <li>
                                                 <a href="main-elements-accordions.html" target="_blank"><i class="mi-circle-add"></i> Accordions</a>
@@ -1090,10 +1083,9 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Item With Sub -->
                             <li>
-                                <a href="#" class="mn-has-sub">Créations sur mesure <i class="mi-chevron-down"></i></a>
+                                <a href="/creation-sur-mesure" class="mn-has-sub">Créations sur mesure <i class="mi-chevron-down"></i></a>
                                 <!-- Sub -->
                                 <ul class="mn-sub">
-                                    
                                     <li>
                                         <a href="#" class="mn-has-sub">Boxed <i class="mi-chevron-right right"></i></a>
                                         
@@ -1170,13 +1162,11 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Item With Sub -->
                             <li>
-                                <a href="#" class="mn-has-sub">Atelier zéro dechets <i class="mi-chevron-down"></i></a>
+                                <a href="/atelier-zero-dechets" class="mn-has-sub">Atelier zéro dechets <i class="mi-chevron-down"></i></a>
                                 <!-- Sub -->
                                 <ul class="mn-sub">
-                                    
                                     <li>
                                         <a href="#" class="mn-has-sub">Classic <i class="mi-chevron-right right"></i></a>
-                                    
                                         <ul class="mn-sub">
                                             <li>
                                                 <a href="main-blog-classic-sidebar-left.html" target="_blank">Sidebar Left</a>
@@ -1230,13 +1220,11 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Item With Sub -->
                             <li>
-                                <a href="#" class="mn-has-sub">Mercerie <i class="mi-chevron-down"></i></a>
+                                <a href="/mercerie" class="mn-has-sub">Mercerie <i class="mi-chevron-down"></i></a>
                                 <!-- Sub -->
                                 <ul class="mn-sub">
-                                    
                                     <li>
                                         <a href="#" class="mn-has-sub">Classic <i class="mi-chevron-right right"></i></a>
-                                    
                                         <ul class="mn-sub">
                                             <li>
                                                 <a href="main-blog-classic-sidebar-left.html" target="_blank">Sidebar Left</a>
@@ -1253,7 +1241,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                     
                                     <li>
                                         <a href="#" class="mn-has-sub">Columns <i class="mi-chevron-right right"></i></a>
-                                    
                                         <ul class="mn-sub">
                                             <li>
                                                 <a href="main-blog-columns-2col.html" target="_blank">2 Columns</a>
@@ -1290,13 +1277,11 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Item With Sub -->
                             <li>
-                                <a href="#" class="mn-has-sub">Contact <i class="mi-chevron-down"></i></a>
+                                <a href="/contact" class="mn-has-sub">Contact <i class="mi-chevron-down"></i></a>
                                 <!-- Sub -->
                                 <ul class="mn-sub">
-                                    
                                     <li>
                                         <a href="#" class="mn-has-sub">Classic <i class="mi-chevron-right right"></i></a>
-                                    
                                         <ul class="mn-sub">
                                             <li>
                                                 <a href="main-blog-classic-sidebar-left.html" target="_blank">Sidebar Left</a>
@@ -1528,13 +1513,13 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                     <h3 class="fw-title">Site web</h3>
                                     
                                     <ul class="fw-menu clearlist">                                        
-                                        <li><a href="#">Accueil</a></li>
-                                        <li><a href="?p=cours-de-couture">Cours de couture</a></li>
-                                        <li><a href="?p=retouches">Retouches</a></li>
-                                        <li><a href="#">Création sur mesure</a></li>
-                                        <li><a href="#">Atelier zéro déchets</a></li>
-                                        <li><a href="#">Mercerie</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="/">Accueil</a></li>
+                                        <li><a href="/cours-de-couture">Cours de couture</a></li>
+                                        <li><a href="/retouches">Retouches</a></li>
+                                        <li><a href="/creation-sur-mesure">Création sur mesure</a></li>
+                                        <li><a href="/atelier-zero-dechets">Atelier zéro déchets</a></li>
+                                        <li><a href="/mercerie">Mercerie</a></li>
+                                        <li><a href="/contact">Contact</a></li>
                                     </ul>
                                     
                                 </div>

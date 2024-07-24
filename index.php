@@ -18,6 +18,9 @@ switch ($page) {
     case 'retouches':
         require 'views/retouches.php';
         break;
+    case 'creation-sur-mesure':
+        require 'views/creation-sur-mesure.php';
+        break;
 }
 $content = ob_get_clean();
 

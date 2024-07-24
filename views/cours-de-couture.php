@@ -35,7 +35,7 @@
     <div class="page-section pt-0">
         <div class="container">
             <div class="mt-n120 mt-sm-n60 overflow-hidden">
-                <img src="<?= URL ?>assets/images/cours-de-couture/banner.jpeg" alt="Image Description" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="0" />
+                <img src="<?= URL ?>assets/images/cours-de-couture/banner.webp" alt="Image Description" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="0" />
             </div>
         </div>
     </div>                
@@ -70,7 +70,7 @@
                     
                     <!-- Image -->
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/cours-de-couture/working1.jpeg" class="image-fullwidth relative" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/cours-de-couture/working1.webp" class="image-fullwidth relative" alt="Image Description" />
                     </div>
                     <!-- End Image -->
                     
@@ -85,10 +85,10 @@
                 <div class="position-relative">
                     <!-- Image -->
                     <div class="position-relative overflow-hidden mb-5">
-                        <img src="<?= URL ?>assets/images/cours-de-couture/working2.jpeg" class="image-fullwidth relative large" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/cours-de-couture/working2.webp" class="image-fullwidth relative large" alt="Image Description" />
                     </div>
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/cours-de-couture/working3.jpeg" class="image-fullwidth relative large" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/cours-de-couture/working3.webp" class="image-fullwidth relative large" alt="Image Description" />
                     </div>
                     <!-- End Image -->
                 </div>                             
@@ -148,13 +148,13 @@
                     
                     <!-- Image -->
                     <div class="position-relative overflow-hidden mb-5">
-                        <img src="<?= URL ?>assets/images/cours-de-couture/working4.jpeg" class="image-fullwidth relative large" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/cours-de-couture/working4.webp" class="image-fullwidth relative large" alt="Image Description" />
                     </div>
                     <div class="position-relative overflow-hidden mb-5">
-                        <img src="<?= URL ?>assets/images/cours-de-couture/working5.jpeg" class="image-fullwidth relative large" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/cours-de-couture/working5.webp" class="image-fullwidth relative large" alt="Image Description" />
                     </div>
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/cours-de-couture/working6.jpeg" class="image-fullwidth relative large" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/cours-de-couture/working6.webp" class="image-fullwidth relative large" alt="Image Description" />
                     </div>
                     <!-- End Image -->
                     

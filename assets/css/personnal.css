@@ -50,7 +50,31 @@ img.image-fullwidth.relative.large {
 }
 
 /* retouches */
-
 section#retouches {
     background-color: #F7E7E74D;
+}
+
+/* creations */
+section#creation-banner {
+    max-height: 620px;
+    background-color: #e7cfcf;
+}
+
+section#creations-sect-2 img {
+    width: 453px;
+    height: 453px;
+}
+
+section#creation-sect-3 img {
+    height: 308px;
+}
+
+section#creation-separator {
+    height: 232px;
+    /* background-image: url('../images/home/motifs-bg.jpeg'); */
+    background-color: #ecdada;
+}
+
+section#last img {
+    height: 462px;
 }

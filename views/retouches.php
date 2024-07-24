@@ -27,8 +27,6 @@
     </div>
 </section>
 <!-- End Header Section -->
-
-
 <!-- Marquee Section -->
 <div class="page-section overflow-hidden pt-0 pb-0">
     <!-- Marquee Text Line -->
@@ -82,7 +80,7 @@
                     
                     <!-- Image -->
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/retouches/working1.jpeg" class="image-fullwidth relative" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/retouches/working1.webp" class="image-fullwidth relative" alt="Image Description" />
                     </div>
                     <!-- End Image -->
                     
@@ -189,10 +187,10 @@
                 <div class="position-relative">
                     <!-- Image -->
                     <div class="position-relative overflow-hidden mb-5">
-                        <img src="<?= URL ?>assets/images/retouches/working2.jpeg" class="image-fullwidth relative large" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/retouches/working2.webp" class="image-fullwidth relative large" alt="Image Description" />
                     </div>
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/retouches/working3.jpeg" class="image-fullwidth relative large" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/retouches/working3.webp" class="image-fullwidth relative large" alt="Image Description" />
                     </div>
                     <!-- End Image -->
                 </div>                             

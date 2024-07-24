@@ -1,5 +1,5 @@
 <!-- Home Section -->
-<section class="home-section bg-light-alpha-90 parallax-5 parallax-mousemove-scene" style="background-image: url(<?= URL ?>assets/images/motifs-bg.jpg)" id="home">
+<section class="home-section bg-light-alpha-90 parallax-5 parallax-mousemove-scene" style="background-image: url(<?= URL ?>assets/images/motifs-bg.jpeg)" id="home">
     <div class="container min-height-100vh d-flex align-items-center pb-100 pt-sm-120 pb-sm-120">
         <!-- Home Section Content -->
         <div class="home-content text-start">
@@ -21,7 +21,7 @@
                         </p>
                     
                         <div class="local-scroll mt-n10 wow fadeInUp wch-unset" data-wow-delay="0.7s" data-wow-duration="1.2s" data-wow-offset="0">
-                            <a href="?p=cours-de-couture" class="btn btn-mod btn-large btn-round btn-hover-anim align-middle me-2 me-sm-5 mt-10"><span>Découvrir les cours de couture</span></a>
+                            <a href="/cours-de-couture" class="btn btn-mod btn-large btn-round btn-hover-anim align-middle me-2 me-sm-5 mt-10"><span>Découvrir les cours de couture</span></a>
                         </div>
                         
                     </div>
@@ -34,19 +34,19 @@
                         
                         <div class="stack-images-1 parallax-mousemove" data-offset="30">
                             <div class="wow clipRightIn" data-wow-delay="1.2s" data-wow-duration="1.75s">
-                                <img src="<?= URL ?>assets/images/home/stack-image-3.jpeg" alt="Image Description" />
+                                <img src="<?= URL ?>assets/images/home/stack-image-3.webp" alt="Image Description" />
                             </div>
                         </div>
                         
                         <div class="stack-images-2 parallax-mousemove" data-offset="60">
                             <div class="wow clipRightIn" data-wow-delay="1.7s" data-wow-duration="1.75s">
-                                <img src="<?= URL ?>assets/images/home/stack-image-2.jpeg" alt="Image Description" />
+                                <img src="<?= URL ?>assets/images/home/stack-image-2.webp" alt="Image Description" />
                             </div>
                         </div>
                         
                         <div class="stack-images-3 parallax-mousemove" data-offset="90">
                             <div class="wow clipRightIn" data-wow-delay="2.2s" data-wow-duration="1.75s">
-                                <img src="<?= URL ?>assets/images/home/stack-image-1.jpeg" alt="Image Description" width="600" />
+                                <img src="<?= URL ?>assets/images/home/stack-image-1.webp" alt="Image Description" width="600" />
                             </div>
                         </div>
                         
@@ -103,7 +103,7 @@
                     
                     <!-- Image -->
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/home/working1.jpeg" class="image-fullwidth relative" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/home/working1.webp" class="image-fullwidth relative" alt="Image Description" />
                     </div>
                     <!-- End Image -->
                     
@@ -121,7 +121,7 @@
                     
                     <!-- Image -->
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/home/working2.jpeg" class="image-fullwidth relative" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/home/working2.webp" class="image-fullwidth relative" alt="Image Description" />
                     </div>
                     <!-- End Image -->
                     
@@ -144,7 +144,7 @@
                     </p>
 
                     <div class="text-right">
-                        <a href="?p=cours-de-couture" class="link-hover-anim underline align-middle text-right" data-link-animate="y">
+                        <a href="/cours-de-couture" class="link-hover-anim underline align-middle text-right" data-link-animate="y">
                             <span class="link-strong link-strong-unhovered">Cours de couture <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                             <span class="link-strong link-strong-hovered" aria-hidden="true">Cours de couture <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                         </a>
@@ -170,7 +170,7 @@
                         La couture, c’est aussi savoir donner une seconde vie aux vêtements. Chez 3C2R, je propose des services de retouches pour que vos habits préférés puissent continuer à vous accompagner. Que ce soit pour ajuster une taille, réparer une fermeture éclair, ou moderniser l’apparence d’un ancien vêtement, je me mets au service de vos besoins.
                     </p>
 
-                    <a href="?p=retouches" class="link-hover-anim underline align-middle mb-4" data-link-animate="y">
+                    <a href="/retouches" class="link-hover-anim underline align-middle mb-4" data-link-animate="y">
                         <span class="link-strong link-strong-unhovered">Retouches <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                         <span class="link-strong link-strong-hovered" aria-hidden="true">Retouches <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                     </a>
@@ -194,7 +194,7 @@
                     
                     <!-- Image -->
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/home/working3.jpeg" class="image-fullwidth relative" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/home/working3.webp" class="image-fullwidth relative" alt="Image Description" />
                     </div>
                     <!-- End Image -->
                     
@@ -268,7 +268,7 @@
                 <!-- Photo Item -->
                 <div class="col-md-4">
                     <div class="post-prev-img rounded-0 mb-30 wow fadeScaleIn" data-wow-offset="0">
-                        <a href="images/portfolio/full-project-1.jpg" class="lightbox mfp-image"><img src="<?= URL ?>assets/images/home/demo1.jpeg" alt="Image Description" /></a>
+                        <a href="images/portfolio/full-project-1.jpg" class="lightbox mfp-image"><img src="<?= URL ?>assets/images/home/demo1.webp" alt="Image Description" /></a>
                     </div>
                 </div>
                 <!-- End Photo Item -->
@@ -276,7 +276,7 @@
                 <!-- Photo Item -->
                 <div class="col-md-4">
                     <div class="post-prev-img rounded-0 mb-30 wow fadeScaleIn" data-wow-offset="0">
-                        <a href="images/portfolio/full-project-2.jpg" class="lightbox mfp-image"><img src="<?= URL ?>assets/images/home/demo2.jpeg" alt="Image Description" /></a>
+                        <a href="images/portfolio/full-project-2.jpg" class="lightbox mfp-image"><img src="<?= URL ?>assets/images/home/demo2.webp" alt="Image Description" /></a>
                     </div>
                 </div>
                 <!-- End Photo Item -->
@@ -284,7 +284,7 @@
                 <!-- Photo Item -->
                 <div class="col-md-4">
                     <div class="post-prev-img rounded-0 mb-30 wow fadeScaleIn" data-wow-offset="0">
-                        <a href="images/portfolio/full-project-3.jpg" class="lightbox mfp-image"><img src="<?= URL ?>assets/images/home/demo3.jpeg" alt="Image Description" /></a>
+                        <a href="images/portfolio/full-project-3.jpg" class="lightbox mfp-image"><img src="<?= URL ?>assets/images/home/demo3.webp" alt="Image Description" /></a>
                     </div>
                 </div>
                 <!-- End Photo Item -->
@@ -328,7 +328,7 @@
                         <div class="team-carousel-item">
                             <div class="team-item">
                                 <div class="team-item-image">
-                                    <img src="<?= URL ?>assets/images/home/mercerie1.jpeg" class="wow scaleOutIn" alt="Image Description" />
+                                    <img src="<?= URL ?>assets/images/home/mercerie1.webp" class="wow scaleOutIn" alt="Image Description" />
                                 </div>
                             </div>                                  
                         </div>
@@ -338,7 +338,7 @@
                         <div class="team-carousel-item">
                             <div class="team-item">
                                 <div class="team-item-image">
-                                    <img src="<?= URL ?>assets/images/home/mercerie2.jpeg" class="wow scaleOutIn" alt="Image Description" />
+                                    <img src="<?= URL ?>assets/images/home/mercerie2.webp" class="wow scaleOutIn" alt="Image Description" />
                                 </div>
                             </div>                                        
                         </div>
