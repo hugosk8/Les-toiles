@@ -48,3 +48,9 @@ img.image-fullwidth.relative.large {
     width: 630px;
     height: 370px;
 }
+
+/* retouches */
+
+section#retouches {
+    background-color: #F7E7E74D;
+}

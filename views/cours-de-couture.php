@@ -1,6 +1,6 @@
 <!-- Header Section -->
 <section class="page-section pt-0 pb-0 cours-de-couture" id="home">
-    <div class="page-section bg-gray-light-1 bg-light-alpha-90 parallax-5" style="background-image: url(images/full-width-images/section-bg-1.jpg)">
+    <div class="page-section parallax-5" style="background-image: url(images/full-width-images/section-bg-1.jpg)">
         <div class="container position-relative pt-50 pb-100 pb-sm-20">
             <!-- Section Content -->
             <div class="text-center">
@@ -39,7 +39,6 @@
             </div>
         </div>
     </div>                
-
 </section>
 <!-- End Header Section -->
 
@@ -113,12 +112,10 @@
                     </p>
                 </div>
             </div>
-            <!-- End Section Text -->                             
-                    
+            <!-- End Section Text -->
         </div>
     
         <div class="row mt-6">
-            
             <!-- Section Text -->
             <div class="col-lg-5 col-xl-5 d-flex align-items-center mb-md-60 mb-sm-40">
                 <div class="w-100">

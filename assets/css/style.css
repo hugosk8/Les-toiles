@@ -413,12 +413,12 @@ img:not([draggable]), embed, object, video{
 .parallax-mousemove-follow{
     -moz-transition: none !important;
 }
-@media not all and (min-resolution:.001dpcm) { @media {
+@media not all and (min-resolution:.001dpcm) {
     .parallax-mousemove,
     .parallax-mousemove-follow{
        transition: none !important;
     }
-}}
+}
 [data-rellax-x]{
     transition: transform 0.25s var(--ease-out-short);
     transition-delay: 0.0025s;
@@ -1227,7 +1227,7 @@ hr.thick{
     transform: translateY(-150%) translateZ(0.001px) skewY(-10deg);
 }
 
-.link-hover-anim:hover .link-strong-hovered{;
+.link-hover-anim:hover .link-strong-hovered{
     opacity: 1;
     transform: translateY(0) translateZ(0.001px) skewY(0);
 }
@@ -2002,7 +2002,7 @@ textarea:-webkit-autofill:focus{
     background-color: transparent !important;
 }
 .light-content .form select:not([multiple]){
-    background-color: transparent: !important;
+    background-color: transparent !important;
     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="5px"><path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M8.886,0.631 L8.336,0.117 C8.263,0.049 8.178,0.015 8.083,0.015 C7.988,0.015 7.903,0.049 7.830,0.117 L4.506,3.155 L1.183,0.117 C1.109,0.049 1.025,0.015 0.930,0.015 C0.834,0.015 0.750,0.049 0.677,0.117 L0.127,0.631 C0.053,0.699 0.017,0.778 0.017,0.867 C0.017,0.956 0.053,1.035 0.127,1.103 L4.253,4.892 C4.327,4.960 4.411,4.994 4.506,4.994 C4.602,4.994 4.686,4.960 4.759,4.892 L8.886,1.103 C8.959,1.035 8.996,0.956 8.996,0.867 C8.996,0.778 8.959,0.699 8.886,0.631 L8.886,0.631 Z"/></svg>');
     background-repeat: no-repeat;
     background-position: right 8px center;
@@ -5384,7 +5384,7 @@ a.logo:hover{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: #fff;
-    background: var(--color-dark-1);
+    background: #E697AC;
     transform: rotate(-5deg);
 }
 .marquee-style-2 .marquee-track > div{
@@ -6450,6 +6450,7 @@ img.services-image{
     position: relative;
     padding: 60px 40px;
     text-align: center;
+    background-color: white;
 }
 .features-2-item:before{
     content: "";

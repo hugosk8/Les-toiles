@@ -68,7 +68,7 @@
     -webkit-text-fill-color: unset;
 }
 .features-2-icon:before{
-    background: var(--color-gray-light-1);
+    background: #FDF8F8;
     opacity: 1;
     z-index: -1;
 }
@@ -92,7 +92,7 @@
     -webkit-background-clip: unset;
     -webkit-text-fill-color: unset;
 }
-.light-content. features-2-icon{
+.light-content .features-2-icon{
     color: #fff;
 }
 .light-content .features-2-icon svg{

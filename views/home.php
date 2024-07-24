@@ -1,11 +1,9 @@
 <!-- Home Section -->
 <section class="home-section bg-light-alpha-90 parallax-5 parallax-mousemove-scene" style="background-image: url(<?= URL ?>assets/images/motifs-bg.jpg)" id="home">
     <div class="container min-height-100vh d-flex align-items-center pb-100 pt-sm-120 pb-sm-120">
-        
         <!-- Home Section Content -->
         <div class="home-content text-start">
             <div class="row">
-                
                 <!-- Home Section Text -->
                 <div class="col-md-6 d-flex align-items-center mb-sm-60">
                     <div>

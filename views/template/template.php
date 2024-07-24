@@ -1379,7 +1379,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                 <?= $content ?>
 
                 <!-- Contact Section -->
-                <section class="page-section pt-0" id="contact">
+                <section class="page-section pt-100" id="contact">
                     <div class="container position-relative wow fadeInUp">
                         <div class="row mb-60 mb-sm-50">
                             <div class="col-lg-6 mb-sm-50">
