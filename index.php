@@ -24,6 +24,9 @@ switch ($page) {
     case 'atelier-zero-dechets':
         require 'views/atelier-zero-dechets.php';
         break;
+    case 'mercerie':
+        require 'views/mercerie.php';
+        break;
 }
 $content = ob_get_clean();
 

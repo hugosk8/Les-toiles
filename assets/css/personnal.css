@@ -31,6 +31,22 @@ section#home-banner {
     background-color: #e7cfcf;
 }
 
+/* section#home-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 182, 193, 0.2); 
+    z-index: 1;
+}
+
+section#home-banner .container {
+    position: relative;
+    z-index: 2; 
+} */
+
 section#creations {
     background-color: #f7e5e54d;
 }
@@ -114,4 +130,22 @@ section#atelier-last img {
 
 section#atelier-last img.first {
     margin-bottom: 20px;
+}
+
+/* mercerie */
+section#mercerie-sect-3 img {
+    height: 470px;
+}
+
+section#mercerie-sect-4 {
+    background-color: #F7E7E74D;
+}
+
+section#mercerie-list ul.list {
+    color: var(--color-gray-1);
+}
+
+section#mercerie-list img {
+    width: 650px;
+    height: 451px;
 }

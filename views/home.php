@@ -1,5 +1,5 @@
 <!-- Home Section -->
-<section class="home-section bg-light-alpha-90 parallax-5 parallax-mousemove-scene" style="background-image: url(<?= URL ?>assets/images/motifs-bg.jpeg)" id="home-banner">
+<section class="home-section bg-light-alpha-90 parallax-5 parallax-mousemove-scene" style="background-image: url(<?= URL ?>assets/images/home/motifs-bg.jpeg)" id="home-banner">
     <div class="container pt-50 d-flex align-items-center pb-100 pt-sm-120 pb-sm-120">
         <!-- Home Section Content -->
         <div class="home-content text-start">
@@ -179,7 +179,7 @@
             <div class="col-md-5 offset-md-1 relative text-start text-md-end pt-40 pt-sm-20 local-scroll">
                 <!-- Decorative Dots -->
                 <div class="decoration-2 d-none d-md-block" data-rellax-y data-rellax-speed="0.7" data-rellax-percentage="-0.2">
-                    <img src="images/decoration-2.svg" alt="" />
+                    <img src="<?= URL ?>assets/images/home/decoration-2.svg" alt="" />
                 </div>
                 <!-- End Decorative Dots -->
                 <a href="main-pages-about-1.html" class="link-hover-anim underline align-middle" data-link-animate="y">Créations sur mesure <i class="mi-arrow-right size-18"></i></a>
@@ -187,38 +187,16 @@
         </div>
         
         <div class="row wow fadeInUp" data-wow-delay="0.5s">
-            
-            <div class="col-lg-6 mb-md-60">
-                <div class="position-relative">
-                    
-                    <!-- Image
-                    <div class="position-relative overflow-hidden">
-                        <img src="images/about-image.jpg" class="image-fullwidth relative" alt="Image Description" />
-                    </div>
-                    End Image -->
-                    
-                    <!-- Decorative Waves -->
-                    <div class="decoration-1 d-none d-sm-block" data-rellax-y data-rellax-speed="1" data-rellax-percentage="0.1">
-                        <img src="images/decoration-1.svg" alt="" />
-                    </div>
-                    <!-- End Decorative Waves -->
-                    
-                </div>
-            </div>
-            
             <div class="row">
-                    
                 <p class="section-descr mb-50 mb-sm-30">
                     Exprimer ma passion à travers des créations sur mesure est l'une des grandes joies de mon métier. Que vous ayez besoin d'une jupe, d’un costume pour un événement spécial, ou d'une robe de mariée, je vous écoute et nous décidons ensemble de votre prochaine tenue. Chaque projet est une aventure où nous collaborons étroitement pour créer un vêtement qui vous sublime.
                     <br>
                     Je crée également des broderies décoratives, des pièces personnalisées à votre effigie si vous le souhaitez. Mon objectif est de vous offrir des créations qui allient esthétique et qualité.
                 </p>
-                
             </div>
 
             <!-- Photo Grid -->
             <div class="row">
-                            
                 <!-- Photo Item -->
                 <div class="col-md-4">
                     <div class="post-prev-img rounded-0 mb-30 wow fadeScaleIn" data-wow-offset="0">
@@ -242,12 +220,9 @@
                     </div>
                 </div>
                 <!-- End Photo Item -->
-                
             </div>
             <!-- End Photo Grid -->
-            
         </div>
-    
     </div>
 </section>
 <!-- End About Section -->
@@ -255,16 +230,13 @@
 <!-- Team Section -->
 <section class="page-section pb-0" id="team">
     <div class="container position-relative">
-        
         <div class="row">
-            
             <!-- Quote -->
             <div class="col-md-6 mb-sm-60 mb-xs-40 d-flex align-items-center">
                 <blockquote class="testimonial mb-0 wow fadeInUp">
                     <h3 class="section-title-smaller mb-30">
                         Les toiles 3C2R, le plaisir de la couture à Lille
                     </h3>
-                    
                     <p class="section-descr-smaller mb-50 mb-sm-30">
                         Enfin, Les Toiles 3C2R c’est aussi une boutique de mercerie où vous trouverez tout ce dont vous avez besoin pour vos projets de couture. Ma caverne d’Ali-Baba propose une large gamme de fournitures de couture, des fils à coudre aux aiguilles de couture, des pelotes de laine en passant par les boutons, fermetures éclair, et ciseaux de couture.
                         <br><br>
