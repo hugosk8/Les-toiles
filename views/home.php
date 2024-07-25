@@ -272,12 +272,10 @@
                         
                     </div>
                 </div>
-
                 <a href="#team" class="link-hover-anim underline align-middle mb-4 absolute right-12" data-link-animate="y">
                     <span class="link-strong link-strong-unhovered">Mercerie <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                     <span class="link-strong link-strong-hovered" aria-hidden="true">Mercerie <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                 </a>
-
             </div>
             <!-- End Team Carousel -->
         </div>

@@ -26,6 +26,10 @@
     text-align: right;
 }
 
+.bg-pink {
+    background-color: #FDF8F8;
+}
+
 /* Accueil */
 section#home-banner {
     background-color: #e7cfcf;

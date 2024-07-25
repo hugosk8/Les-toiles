@@ -4,8 +4,8 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 <html lang="en">
     <head>
         
-        <title>Les toiles</title>
-        <meta name="description" content="Resonance &mdash; One & Multi Page Creative Template">  
+        <title><?= $title ?></title>
+        <meta name="description" content="<?= $metadescription ?>">  
         <meta charset="utf-8">
         <meta name="author" content="https://theme—forest.net/user/bestlooker/portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -212,7 +212,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
             </main>
             
             <!-- Footer -->
-            <footer class="page-section footer bg-gray-light-1 pb-30">
+            <footer class="page-section bg-pink footer pb-30">
                 <div class="container">
                     
                     <div class="row pb-120 pb-sm-80 pb-xs-50">
