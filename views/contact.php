@@ -30,7 +30,6 @@
 </section>
 <!-- End Header Section -->
 
-
 <!-- Services Section -->
 <section class="page-section py-0" id="services">                    
     <div class="container position-relative mt-n120 mt-sm-n60">
@@ -52,7 +51,7 @@
                         <div class="services-3-text">
                             Vous souhaitez améliorer votre technique en couture ou proposer à vos enfants de s’initier à cette pratique calme et utile ?
                         </div>
-                        <a href="#team" class="link-hover-anim underline align-middle" data-link-animate="y">
+                        <a href="/cours-de-couture" class="link-hover-anim underline align-middle" data-link-animate="y">
                             <span class="link-strong link-strong-unhovered">Cours de couture <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                             <span class="link-strong link-strong-hovered" aria-hidden="true">Cours de couture <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                         </a>  
@@ -76,7 +75,7 @@
                         <div class="services-3-text">
                             Vous avez des affaires en piteux état à la suite d’un accroc ou d’une déchirure que vous souhaitez faire réparer ?
                         </div>
-                        <a href="#team" class="link-hover-anim underline align-middle" data-link-animate="y">
+                        <a href="/retouches" class="link-hover-anim underline align-middle" data-link-animate="y">
                             <span class="link-strong link-strong-unhovered">Retouches <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                             <span class="link-strong link-strong-hovered" aria-hidden="true">Retouches <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                         </a>    
@@ -100,7 +99,7 @@
                         <div class="services-3-text">
                             Votre mariage approche et vous ne savez pas où vous adresser pour votre robe de mariée ?
                         </div>
-                        <a href="#team" class="link-hover-anim underline align-middle" data-link-animate="y">
+                        <a href="/creations-sur-mesure" class="link-hover-anim underline align-middle" data-link-animate="y">
                             <span class="link-strong link-strong-unhovered">Créations sur mesure <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                             <span class="link-strong link-strong-hovered" aria-hidden="true">Créations sur mesure <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                         </a>  
@@ -124,7 +123,7 @@
                         <div class="services-3-text">
                             Vous souhaitez apprendre à économiser le tissu et les vêtements ?
                         </div>
-                        <a href="#team" class="link-hover-anim underline align-middle" data-link-animate="y">
+                        <a href="/atelier-zero-dechets" class="link-hover-anim underline align-middle" data-link-animate="y">
                             <span class="link-strong link-strong-unhovered">Atelier zéro dechets <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                             <span class="link-strong link-strong-hovered" aria-hidden="true">Atelier zéro dechets <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                         </a>  
@@ -148,7 +147,7 @@
                         <div class="services-3-text">
                             Les Toiles 3C2R sont le lieu idéal pour répondre à tous vos soucis. Vous y trouverez même une mercerie
                         </div>
-                        <a href="#team" class="link-hover-anim underline align-middle" data-link-animate="y">
+                        <a href="/mercerie" class="link-hover-anim underline align-middle" data-link-animate="y">
                             <span class="link-strong link-strong-unhovered">Mercerie <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                             <span class="link-strong link-strong-hovered" aria-hidden="true">Mercerie <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                         </a>  

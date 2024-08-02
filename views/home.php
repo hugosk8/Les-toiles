@@ -29,17 +29,17 @@
                     <div class="stack-images">
                         <div class="stack-images-1 parallax-mousemove" data-offset="30">
                             <div class="wow clipRightIn" data-wow-delay="1.2s" data-wow-duration="1.75s">
-                                <img src="<?= URL ?>assets/images/home/stack-image-3.webp" alt="Image Description" />
+                                <img src="<?= URL ?>assets/images/home/stack-image-3.webp" alt="Plusieurs fils de couleurs differentes" />
                             </div>
                         </div>
                         <div class="stack-images-2 parallax-mousemove" data-offset="60">
                             <div class="wow clipRightIn" data-wow-delay="1.7s" data-wow-duration="1.75s">
-                                <img src="<?= URL ?>assets/images/home/stack-image-2.webp" alt="Image Description" />
+                                <img src="<?= URL ?>assets/images/home/stack-image-2.webp" alt="Toile verte avec des fleurs cousues dessus" />
                             </div>
                         </div>
                         <div class="stack-images-3 parallax-mousemove" data-offset="90">
                             <div class="wow clipRightIn" data-wow-delay="2.2s" data-wow-duration="1.75s">
-                                <img src="<?= URL ?>assets/images/home/stack-image-1.webp" alt="Image Description" width="600" />
+                                <img src="<?= URL ?>assets/images/home/stack-image-1.webp" alt="Ciseaux, mètre et fils posés sur un tissus rosé" width="600" />
                             </div>
                         </div>
                     </div>
@@ -70,22 +70,22 @@
             <!-- End Section Text -->
             
             <!-- Image Column -->
-            <div class="col-lg-7 col-xl-6 d-flex align-items-center">
+            <div class="col-lg-7 col-xl-6 d-flex align-items-center justify-content-center">
                 <div class="position-relative">
-                    <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/home/working1.webp" class="image-fullwidth relative" alt="Image Description" />
+                    <div class="position-relative overflow-hidden text-center">
+                        <img src="<?= URL ?>assets/images/home/working1.webp" class="image-fullwidth relative" alt="femme en train de creer un patron" />
                     </div>
                 </div>                             
             </div>
             <!-- End Image Column -->                               
         </div>
     
-        <div class="row mt-6">
+        <div class="row mt-6 mobile-reverse">
             <!-- Image Column -->
-            <div class="col-lg-7 col-xl-6 offset-xl-1-right d-flex align-items-center" style="margin-right:8.33333333%">
+            <div class="col-lg-7 col-xl-6 offset-xl-1-right d-flex align-items-center justify-content-center" style="margin-right:8.33333333%">
                 <div class="position-relative">
-                    <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/home/working2.webp" class="image-fullwidth relative" alt="Image Description" />
+                    <div class="position-relative overflow-hidden text-center">
+                        <img src="<?= URL ?>assets/images/home/working2.webp" class="image-fullwidth relative w-630" alt="trois personne en train de travailer sur un long tissus jaune" />
                     </div>
                 </div>                             
             </div>
@@ -112,58 +112,44 @@
                     
                 </div>
             </div>
-            <!-- End Section Text -->                             
-                    
+            <!-- End Section Text -->
         </div>
     
         <div class="row mt-6">
-            
             <!-- Section Text -->
             <div class="col-lg-5 col-xl-5 d-flex align-items-center mb-md-60 mb-sm-40">
                 <div class="w-100">
-                    
                     <h3 class="section-title mb-30 fs-20">
                         En couture, la retouche c’est savoir garder ses vêtements plus longtemps
                     </h3>
-                    
                     <p class="section-descr mb-0 mb-sm-30 fs-18">
                         La couture, c’est aussi savoir donner une seconde vie aux vêtements. Chez 3C2R, je propose des services de retouches pour que vos habits préférés puissent continuer à vous accompagner. Que ce soit pour ajuster une taille, réparer une fermeture éclair, ou moderniser l’apparence d’un ancien vêtement, je me mets au service de vos besoins.
                     </p>
-
                     <a href="/retouches" class="link-hover-anim underline align-middle mb-4" data-link-animate="y">
                         <span class="link-strong link-strong-unhovered">Retouches <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                         <span class="link-strong link-strong-hovered" aria-hidden="true">Retouches <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                     </a>
-                    
                     <p class="section-descr mb-0 mb-sm-30 fs-18">
                     J’organise également des ateliers zéro déchet pour ceux qui souhaitent adopter une démarche écologique tout en faisant des économies. Apprenez à réparer vos vêtements, à coudre des sacs réutilisables, ou à confectionner des accessoires durables. Ces ateliers sont une excellente occasion de découvrir des techniques de couture écologiques tout en participant à la préservation de notre environnement.
                     </p>
-
-                    <a href="#team" class="link-hover-anim underline align-middle mb-4" data-link-animate="y">
+                    <a href="/atelier-zero-dechets" class="link-hover-anim underline align-middle mb-4" data-link-animate="y">
                         <span class="link-strong link-strong-unhovered">Ateliers zéro dechets <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                         <span class="link-strong link-strong-hovered" aria-hidden="true">Ateliers zéro dechets <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                     </a>
-                    
                 </div>
             </div>
             <!-- End Section Text -->   
             
             <!-- Image Column -->
-            <div class="col-lg-7 col-xl-6 offset-xl-1 d-flex align-items-center">
+            <div class="col-lg-7 col-xl-6 offset-xl-1 d-flex align-items-center justify-content-center">
                 <div class="position-relative">
-                    
-                    <!-- Image -->
-                    <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/home/working3.webp" class="image-fullwidth relative" alt="Image Description" />
+                    <div class="position-relative overflow-hidden text-center">
+                        <img src="<?= URL ?>assets/images/home/working3.webp" class="image-fullwidth relative w-630" alt="gros plan d'une femme en train de coudre un tissus blanc" />
                     </div>
-                    <!-- End Image -->
-                    
                 </div>                             
             </div>
-            <!-- End Image Column -->                            
-                    
+            <!-- End Image Column -->
         </div>
-    
     </div>
 </section>
 <!-- End Benefits Section -->
@@ -179,14 +165,14 @@
             <div class="col-md-5 offset-md-1 relative text-start text-md-end pt-40 pt-sm-20 local-scroll">
                 <!-- Decorative Dots -->
                 <div class="decoration-2 d-none d-md-block" data-rellax-y data-rellax-speed="0.7" data-rellax-percentage="-0.2">
-                    <img src="<?= URL ?>assets/images/home/decoration-2.svg" alt="" />
+                    <img src="<?= URL ?>assets/images/home/decoration-2.svg" alt="Petits points roses decoratifs" />
                 </div>
                 <!-- End Decorative Dots -->
-                <a href="main-pages-about-1.html" class="link-hover-anim underline align-middle" data-link-animate="y">Créations sur mesure <i class="mi-arrow-right size-18"></i></a>
+                <a href="/creations-sur-mesure" class="link-hover-anim underline align-middle" data-link-animate="y">Créations sur mesure <i class="mi-arrow-right size-18"></i></a>
             </div>
         </div>
         
-        <div class="row wow fadeInUp" data-wow-delay="0.5s">
+        <div class="row wow fadeInUp d-flex justify-content-center" data-wow-delay="0.5s">
             <div class="row">
                 <p class="section-descr mb-50 mb-sm-30">
                     Exprimer ma passion à travers des créations sur mesure est l'une des grandes joies de mon métier. Que vous ayez besoin d'une jupe, d’un costume pour un événement spécial, ou d'une robe de mariée, je vous écoute et nous décidons ensemble de votre prochaine tenue. Chaque projet est une aventure où nous collaborons étroitement pour créer un vêtement qui vous sublime.
@@ -199,24 +185,24 @@
             <div class="row">
                 <!-- Photo Item -->
                 <div class="col-md-4">
-                    <div class="post-prev-img rounded-0 mb-30 wow fadeScaleIn" data-wow-offset="0">
-                        <a href="images/portfolio/full-project-1.jpg" class="lightbox mfp-image"><img src="<?= URL ?>assets/images/home/demo1.webp" alt="Image Description" /></a>
+                    <div class="post-prev-img rounded-0 mb-30 wow fadeScaleIn text-center" data-wow-offset="0">
+                        <a href="<?= URL ?>assets/images/home/demo1.webp" class="lightbox mfp-image"><img src="<?= URL ?>assets/images/home/demo1.webp" alt="Buste de couture avec des fleurs dessus" /></a>
                     </div>
                 </div>
                 <!-- End Photo Item -->
                 
                 <!-- Photo Item -->
                 <div class="col-md-4">
-                    <div class="post-prev-img rounded-0 mb-30 wow fadeScaleIn" data-wow-offset="0">
-                        <a href="images/portfolio/full-project-2.jpg" class="lightbox mfp-image"><img src="<?= URL ?>assets/images/home/demo2.webp" alt="Image Description" /></a>
+                    <div class="post-prev-img rounded-0 mb-30 wow fadeScaleIn text-center" data-wow-offset="0">
+                        <a href="<?= URL ?>assets/images/home/demo2.webp" class="lightbox mfp-image"><img src="<?= URL ?>assets/images/home/demo2.webp" alt="Fleurs, fils, boutons, epingles, tissus éparpillés sur une table" /></a>
                     </div>
                 </div>
                 <!-- End Photo Item -->
                 
                 <!-- Photo Item -->
                 <div class="col-md-4">
-                    <div class="post-prev-img rounded-0 mb-30 wow fadeScaleIn" data-wow-offset="0">
-                        <a href="images/portfolio/full-project-3.jpg" class="lightbox mfp-image"><img src="<?= URL ?>assets/images/home/demo3.webp" alt="Image Description" /></a>
+                    <div class="post-prev-img rounded-0 mb-30 wow fadeScaleIn text-center" data-wow-offset="0">
+                        <a href="<?= URL ?>assets/images/home/demo3.webp" class="lightbox mfp-image"><img src="<?= URL ?>assets/images/home/demo3.webp" alt="Femme en train de travailler sur un buste de couture" /></a>
                     </div>
                 </div>
                 <!-- End Photo Item -->
@@ -228,18 +214,23 @@
 <!-- End About Section -->
 
 <!-- Team Section -->
-<section class="page-section pb-0" id="team">
+<section class="page-section" id="team">
     <div class="container position-relative">
         <div class="row">
             <!-- Quote -->
-            <div class="col-md-6 mb-sm-60 mb-xs-40 d-flex align-items-center">
-                <blockquote class="testimonial mb-0 wow fadeInUp">
+            <div class="col-lg-6 col-md-12 mb-sm-60 mb-xs-40 d-flex align-items-center">
+                <blockquote class="testimonial mb-0 wow fadeInUp pl-0">
                     <h3 class="section-title-smaller mb-30">
                         Les toiles 3C2R, le plaisir de la couture à Lille
                     </h3>
-                    <p class="section-descr-smaller mb-50 mb-sm-30">
+                    <p class="section-descr-smaller mb-0 mb-sm-30">
                         Enfin, Les Toiles 3C2R c’est aussi une boutique de mercerie où vous trouverez tout ce dont vous avez besoin pour vos projets de couture. Ma caverne d’Ali-Baba propose une large gamme de fournitures de couture, des fils à coudre aux aiguilles de couture, des pelotes de laine en passant par les boutons, fermetures éclair, et ciseaux de couture.
-                        <br><br>
+                    </p>
+                    <div class="team-item-image d-flex justify-content-evenly my-4">
+                        <img src="<?= URL ?>assets/images/home/mercerie1.webp" class="wow scaleOutIn mobile-appear w-40p" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/home/mercerie2.webp" class="wow scaleOutIn mobile-appear w-40p" alt="Image Description" />
+                    </div>
+                    <p class="section-descr-smaller mb-50 mb-sm-30">
                         Que vous soyez à la recherche de tissus, de patrons, ou de kits de couture complets, mon magasin regorge de solutions pour tous vos besoins. Venez me rendre visite et laissez-vous inspirer par les possibilités infinies qu’offre la couture.
                     </p>
                 </blockquote>
@@ -247,16 +238,16 @@
             <!-- End Quote -->
             
             <!-- Team Carousel -->
-            <div class="col-md-6 relative">
+            <div class="col-md-6 mobile-d-none">
                 <div>
                     <div class="team-carousel">
                         <!-- Team item -->
                         <div class="team-carousel-item">
                             <div class="team-item">
                                 <div class="team-item-image">
-                                    <img src="<?= URL ?>assets/images/home/mercerie1.webp" class="wow scaleOutIn" alt="Image Description" />
+                                    <img src="<?= URL ?>assets/images/home/mercerie1.webp" class="wow scaleOutIn first" alt="Image Description" />
                                 </div>
-                            </div>                                  
+                            </div>                                        
                         </div>
                         <!-- End Team item -->
                         
@@ -269,10 +260,9 @@
                             </div>                                        
                         </div>
                         <!-- End Team item -->
-                        
                     </div>
                 </div>
-                <a href="#team" class="link-hover-anim underline align-middle mb-4 absolute right-12" data-link-animate="y">
+                <a href="/mercerie" class="link-hover-anim underline align-middle mb-4 absolute right-12" data-link-animate="y">
                     <span class="link-strong link-strong-unhovered">Mercerie <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                     <span class="link-strong link-strong-hovered" aria-hidden="true">Mercerie <i class="mi-arrow-right size-18" aria-hidden="true"></i></span>
                 </a>

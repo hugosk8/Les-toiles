@@ -30,31 +30,6 @@
     background-color: #FDF8F8;
 }
 
-/* Accueil */
-section#home-banner {
-    background-color: #e7cfcf;
-}
-
-/* section#home-banner::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 182, 193, 0.2); 
-    z-index: 1;
-}
-
-section#home-banner .container {
-    position: relative;
-    z-index: 2; 
-} */
-
-section#creations {
-    background-color: #f7e5e54d;
-}
-
 .absolute {
     position: absolute;
 }
@@ -63,19 +38,96 @@ section#creations {
     right: 12px;
 }
 
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.w-630 {
+    width: 630px !important;
+}
+
+.w-558 {
+    width: 558px !important;
+}
+
+.w-40p {
+    width: 40% !important;
+}
+
+.unstyled {
+    list-style: none !important;
+}
+
+@media (max-width: 991px) {
+    .mobile-d-none {
+        display: none !important;
+    }
+
+    #cours-last-row {
+        margin-top: 0 !important;
+    }
+}
+
+@media (min-width: 991px) {
+    .mobile-appear {
+        display: none !important;
+    }
+}
+
+/* Accueil */
+section#home-banner {
+    background-color: #e7cfcf;
+}
+
+section#home-banner img {
+    width: 300px;
+}
+
+section#creations {
+    background-color: #f7e5e54d;
+}
+
 section#contact .contact-title {
     font-size: 56px ;
     font-weight: 500 ;
 }
 
-section.cours-de-couture img.wow.scaleOutIn {
-    width: 1500px;
-    height: 844px;
+.owl-wrapper {
+    display: flex !important;
 }
 
-img.image-fullwidth.relative.large {
-    width: 630px;
-    height: 370px;
+@media (max-width: 1000px) {
+    .owl-wrapper {
+        display: flex !important;
+        flex-direction: column;
+        margin-top: 30%;
+    }
+
+    .owl-wrapper .owl-item.active {
+        margin-left: 10%;
+    }
+
+    .owl-wrapper img.first {
+        margin-bottom: 20px;
+    }
+}
+
+/* Cours de couture */
+section#banner img {
+    width: 1290px;
+    height: auto;
+}
+
+@media (max-width: 1199px) {
+    .col-lg-7.col-xl-6.offset-xl-1-right.d-flex.align-items-center {
+    margin-right: 0 !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .mobile-reverse {
+        flex-direction: column-reverse;
+    }
 }
 
 /* retouches */
@@ -85,11 +137,21 @@ section#retouches-banner {
 
 section#retouches-sect-2 img {
     width: 558px;
-    height: 448px;
+    height: auto;
 }
 
 section#retouches {
     background-color: #F7E7E74D;
+}
+
+.features-2-item.pt-sm-40.pb-sm-40 {
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .col-md-8.col-lg-8.title {
+        width: 100%;
+    }
 }
 
 /* creations */
@@ -98,13 +160,23 @@ section#creation-banner {
     background-color: #e7cfcf;
 }
 
+@media (max-width:991px) {
+    section#creation-banner {
+        margin-bottom: 300px;
+    }
+
+    .col-md-6.d-flex.align-items-center.mb-sm-60 {
+        margin-bottom: -80px !important;
+    }
+}
+
 section#creations-sect-2 img {
     width: 453px;
-    height: 453px;
+    height: auto;
 }
 
 section#creation-sect-3 img {
-    height: 308px;
+    height: auto;
 }
 
 section#creation-separator {
@@ -114,22 +186,28 @@ section#creation-separator {
 }
 
 section#last img {
-    height: 462px;
+    height: auto;
 }
 
 /* Atelier zero dechet */
 section#atelier-banner {
     background-color: #f8f0f0;
     max-height: 963px;
-    margin-bottom: 650px;
-}
+
+} 
+
+/* @media (min-width: 700px) {
+    section#atelier-banner {
+        margin-bottom: 20vh;
+    }
+} */
 
 section#atelier-sect-3 img {
-    height: 611px;
+    height: auto;
 }
 
 section#atelier-last img {
-    height: 416px;
+    height: auto;
 }
 
 section#atelier-last img.first {
@@ -138,7 +216,7 @@ section#atelier-last img.first {
 
 /* mercerie */
 section#mercerie-sect-3 img {
-    height: 470px;
+    height: auto;
 }
 
 section#mercerie-sect-4 {
@@ -151,5 +229,17 @@ section#mercerie-list ul.list {
 
 section#mercerie-list img {
     width: 650px;
-    height: 451px;
+    height: auto;
 }
+
+@media (max-width: 991px) {
+    img.img-mb {
+        margin-bottom: 30px;
+    }
+
+    div.end-text {
+        margin-top: 0 !important;
+        width: 100%;
+    }
+}
+

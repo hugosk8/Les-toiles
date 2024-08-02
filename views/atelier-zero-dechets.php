@@ -1,6 +1,6 @@
 <!-- Header Section -->
-<section class="page-section pt-0 pb-0 cours-de-couture" id="atelier-banner">
-    <div class="page-section parallax-5" style="background-image: url(images/full-width-images/section-bg-1.jpg)">
+<section class="page-section pt-0 pb-0" id="banner">
+    <div class="page-section bg-pink parallax-5" style="background-image: url(images/full-width-images/section-bg-1.jpg)">
         <div class="container position-relative pt-50 pb-100 pb-sm-20">
             <!-- Section Content -->
             <div class="text-center">
@@ -8,17 +8,17 @@
                     <!-- Page Title -->
                     <div class="col-md-10 offset-md-1">
                         <h2 class="section-caption-border mb-30 mb-xs-20 wow fadeInUp" data-wow-duration="1.2s">
-                            Atelier zero dechets
+                            Ateliers couture zéro déchet
                         </h2>
                         <h1 class="hs-title-1 mb-30">
                             <span class="wow charsAnimIn" data-splitting="chars">
-                                Ateliers couture zéro déchet : 
+                                Ateliers couture zéro déchet :
                                 <br>
                                 économisez pour vous et la planète
                             </span>
                         </h1>
                         <div class="row">
-                            <div class="col-md-10 offset-md-1 col-lg-10 offset-lg-1">
+                            <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
                                 <p class="section-descr mb-0 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1.2s">
                                     Les Toiles 3C2R animent des ateliers couture zéro déchet dans le Nord : techniques de retouches, conseils de customisation, fabrication de sacs...
                                 </p>
@@ -31,10 +31,9 @@
             <!-- End Section Content -->
         </div>
     </div>
-    
     <div class="page-section pt-0">
         <div class="container">
-            <div class="mt-n120 mt-sm-n60 overflow-hidden">
+            <div class="mt-n120 mt-sm-n60 overflow-hidden text-center">
                 <img src="<?= URL ?>assets/images/cours-de-couture/banner.webp" alt="Image Description" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="0" />
             </div>
         </div>
@@ -60,10 +59,10 @@
             <!-- End Section Text -->
             
             <!-- Image Column -->
-            <div class="col-lg-7 col-xl-5 d-flex align-items-center">
+            <div class="col-lg-7 col-xl-5 d-flex align-items-center justify-content-center">
                 <div class="position-relative">
-                    <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/cours-de-couture/working1.webp" class="image-fullwidth relative" alt="Image Description" />
+                    <div class="position-relative overflow-hidden text-center">
+                        <img src="<?= URL ?>assets/images/cours-de-couture/working1.webp" class="image-fullwidth relative" alt="Femme en train de coudre du cuir" />
                     </div>
                 </div>                             
             </div>
@@ -78,12 +77,12 @@
 <!-- Benefits Section -->
 <section class="page-section pt-0" id="atelier-sect-3">
     <div class="container position-relative">
-        <div class="row mt-6">
+        <div class="row mt-6 mobile-reverse">
             <!-- Image Column -->
-            <div class="col-lg-7 col-xl-6 offset-xl-1-right d-flex align-items-center" style="margin-right:8.33333333%">
+            <div class="col-lg-7 col-xl-6 offset-xl-1-right d-flex align-items-center justify-content-center" style="margin-right:8.33333333%">
                 <div class="position-relative">
                     <div class="position-relative overflow-hidden mb-5">
-                        <img src="<?= URL ?>assets/images/atelier/working1.webp" class="image-fullwidth relative large" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/atelier/working1.webp" class="image-fullwidth relative large" alt="Deux main en train de coudre un tissus blanc" />
                     </div>
                 </div>                             
             </div>
@@ -115,16 +114,22 @@
             <!-- Section Text -->
             <div class="col-lg-5 col-xl-5 d-flex align-items-center mb-md-60 mb-sm-40">
                 <div class="w-100">
-                    
                     <h3 class="section-title mb-30 fs-20">
                         Repartez de l’atelier couture zéro déchet avec des conseils et vos créations
                     </h3>
-                    
                     <p class="section-descr mb-0 mb-sm-30 fs-18">
                         Lors de mes ateliers, j’apporte tout le matériel nécessaire : machines à coudre, fils, aiguilles de couture, fermetures éclair, ciseaux de couture et bien plus encore. Chaque participant apprend à réparer une fermeture éclair, à faire un ourlet, à raccommoder un accroc, ou à confectionner des essuie-tout réutilisables, des tote bags, etc. J’enseigne également l’entretien des machines à coudre, une compétence essentielle pour prolonger la vie de votre matériel de couture.
-                        <br><br>
+                    </p>
+                    <div class="position-relative overflow-hidden text-center my-4">
+                        <img src="<?= URL ?>assets/images/cours-de-couture/working6.webp" class="image-fullwidth relative large first mobile-appear" alt="Trois personnes sur une longue table en train de travailler sur un long tissus jaune" />
+                    </div>
+                    <p class="section-descr mb-0 mb-sm-30 fs-18">
                         Dans une période où le coût de la vie écrase tant de familles, les ateliers sont l’occasion parfaite pour apprendre à économiser, à ne pas jeter et à réparer les vêtements des enfants, transformant ainsi chaque projet de couture en une action écologique. Vous repartirez avec des conseils pratiques, des réponses à vos questions, des techniques de couture simples et efficaces, et surtout, avec vos propres créations que vous aurez réalisées de vos mains. La couture zéro déchet est une manière créative et durable de consommer différemment tout en prenant soin de notre planète.
-                        <br><br>
+                    </p>
+                    <div class="position-relative overflow-hidden text-center my-4">
+                        <img src="<?= URL ?>assets/images/atelier/working2.webp" class="image-fullwidth relative large mobile-appear" alt="Femme en train de coudre un jean vu du dessus" />
+                    </div>
+                    <p class="section-descr mb-0 mb-sm-30 fs-18">
                         À noter que les thématiques des ateliers sont définies en fonction des demandes des mairies, ce qui permet de répondre aux besoins spécifiques de chaque communauté. Le public est varié : familles avec enfants, seniors, jeunes adultes... tout le monde est bienvenu. Consultez notre agenda pour découvrir les prochaines dates et les thèmes des ateliers couture zéro déchet. N’hésitez pas à me contacter à ce sujet.
                     </p>
                     
@@ -133,13 +138,13 @@
             <!-- End Section Text -->   
             
             <!-- Image Column -->
-            <div class="col-lg-7 col-xl-6 offset-xl-1 d-flex align-items-center">
+            <div class="col-lg-7 col-xl-6 offset-xl-1 d-flex align-items-center justify-content-center mobile-d-none">
                 <div class="position-relative">
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/cours-de-couture/working6.webp" class="image-fullwidth relative large first" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/cours-de-couture/working6.webp" class="image-fullwidth relative large first" alt="Trois personnes sur une longue table en train de travailler sur un long tissus jaune" />
                     </div>
                     <div class="position-relative overflow-hidden mb-5">
-                        <img src="<?= URL ?>assets/images/atelier/working2.webp" class="image-fullwidth relative large" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/atelier/working2.webp" class="image-fullwidth relative large" alt="Femme en train de coudre un jean vu du dessus" />
                     </div>
                 </div>                             
             </div>

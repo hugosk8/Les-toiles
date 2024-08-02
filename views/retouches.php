@@ -71,10 +71,10 @@
             <!-- End Section Text -->
             
             <!-- Image Column -->
-            <div class="col-lg-5 col-xl-5 d-flex align-items-center">
+            <div class="col-lg-5 col-xl-5 d-flex align-items-center justify-content-center">
                 <div class="position-relative">
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/retouches/working1.webp" class="image-fullwidth relative" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/retouches/working1.webp" class="image-fullwidth relative w-558" alt="Mains en train de coudre un tissus rayé" />
                     </div>
                 </div>                             
             </div>
@@ -89,7 +89,7 @@
     <div class="container position-relative">
         
         <div class="row mb-60 mb-sm-40">
-            <div class="col-md-8 col-lg-8">
+            <div class="col-md-8 col-lg-8 title">
                 <h2 class="section-title mb-0">Profitez de la retouche en couture pour revisiter votre garde-robe</h2>
             </div>
             <div class="col-lg-4 pt-20 pt-md-30">
@@ -100,7 +100,7 @@
         </div>
         
         <!-- Steps Grid -->
-        <div class="row mt-n30">
+        <div class="row mt-n30 justify-content-center">
             <!-- Steps Item -->
             <div class="col-md-6 col-lg-4 d-flex align-items-stretch mt-30 wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0">
                 <div class="features-2-item pt-sm-40 pb-sm-40">
@@ -174,14 +174,14 @@
     <div class="container position-relative">
         <div class="row mt-6">
             <!-- Image Column -->
-            <div class="col-lg-7 col-xl-6 offset-xl-1-right d-flex align-items-center" style="margin-right:8.33333333%">
+            <div class="col-lg-7 col-xl-6 offset-xl-1-right d-flex align-items-center justify-content-center mobile-d-none" style="margin-right:8.33333333%">
                 <div class="position-relative">
                     <!-- Image -->
-                    <div class="position-relative overflow-hidden mb-5">
-                        <img src="<?= URL ?>assets/images/retouches/working2.webp" class="image-fullwidth relative large" alt="Image Description" />
+                    <div class="position-relative overflow-hidden mb-5 text-center">
+                        <img src="<?= URL ?>assets/images/retouches/working2.webp" class="image-fullwidth relative w-630" alt="Personne vue de dos en train de coudre à la machine" />
                     </div>
-                    <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/retouches/working3.webp" class="image-fullwidth relative large" alt="Image Description" />
+                    <div class="position-relative overflow-hidden text-center">
+                        <img src="<?= URL ?>assets/images/retouches/working3.webp" class="image-fullwidth relative w-630 img-mb" alt="Gros plan d'une personne en train de coudre à la machine" />
                     </div>
                     <!-- End Image -->
                 </div>                             
@@ -194,13 +194,22 @@
                     <h3 class="section-title mb-30 fs-20">
                         Faites des économies en retouche couture : les Toiles 3C2R sont labellisées Refashion
                     </h3>
-                    <p class="section-descr mb-0 mb-sm-30 fs-18">
+                    <p class="section-descr mb-4 mb-sm-30 fs-18">
                         Connaissez-vous le Bonus Réparation ? C’est un dispositif mis en place par les pouvoirs publics pour inciter les consommateurs à faire réparer leurs textiles et leurs chaussures plutôt que de les jeter au moindre souci. L’objectif ultime est de nous aider à rentrer dans un cercle vertueux et d’éviter le gaspillage.
-                        <br><br>
+                    </p>
+                    <div class="position-relative overflow-hidden text-center">
+                        <img src="<?= URL ?>assets/images/retouches/working2.webp" class="image-fullwidth relative w-630 img-mb mobile-appear" alt="Gros plan d'une personne en train de coudre à la machine" />
+                    </div>
+                    <p class="section-descr mb-4 mb-sm-30 fs-18">
                         Inutile d’en rajouter sur l’état de notre planète et des océans, du climat qui ne s’arrange pas et de la pollution omniprésente. Sans compter que dans certaines filières, comme les vêtements, les productions à bas coût dans des pays émergents s’apparentent souvent à une exploitation humaine.
-                        <br><br>
+                    </p>
+                    <p class="section-descr mb-4 mb-sm-30 fs-18">
                         Vous avez ainsi tout bénéfice à en profiter. Le bonus réparation vous permet en particulier de bénéficier de réductions pour la réparation de vos vêtements. Appliqué directement lors du paiement, ce bonus est disponible chez les réparateurs labellisés Refashion, comme les Toiles 3CR2. Grâce à ce soutien financier, vous pouvez faire réparer vos textiles tout en réalisant des économies. Et vous aurez fait d’une pierre deux coups : donner une meilleure durée de vie à vos habits, et donc faire des économies, tout en faisant un geste pour l’environnement.
-                        <br><br>
+                    </p>
+                    <div class="position-relative overflow-hidden text-center">
+                        <img src="<?= URL ?>assets/images/retouches/working3.webp" class="image-fullwidth relative w-630 img-mb mobile-appear" alt="Gros plan d'une personne en train de coudre à la machine" />
+                    </div>
+                    <p class="section-descr mb-0 mb-sm-30 fs-18">
                         Pour en savoir plus sur le bonus réparation ou prendre rendez-vous pour des retouches, n’hésitez pas à me contacter.
                     </p>
                 </div>

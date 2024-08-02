@@ -11,8 +11,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
         <!-- Favicon -->
-        <link rel="icon" href="images/favicon.png" type="image/png" sizes="any">
-        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">         
+        <link rel="icon" href="<?= URL ?>assets/images/favicon.ico" type="image/ico" sizes="any">    
 
         <!-- CSS -->
         <link rel="stylesheet" href="<?= URL ?>assets/css/bootstrap.min.css">
@@ -46,16 +45,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
             <!-- Navigation Panel -->
             <nav class="main-nav transparent stick-fixed wow-menubar">
                 <div class="main-nav-sub full-wrapper">
-                    
-                    <!-- Logo  (* Add your text or image to the link tag. Use SVG or PNG image format. 
-                    If you use a PNG logo image, the image resolution must be equal 200% of the visible logo
-                    image size for support of retina screens. See details in the template documentation. *) -->
-                    <!-- <div class="nav-logo-wrap local-scroll">
-                        <a href="index.html" class="logo">
-                            <img src="images/logo-dark.svg" alt="Your Company Logo" width="105" height="34" />
-                        </a>
-                    </div> -->
-                    
                     <!-- Mobile Menu Button -->
                     <div class="mobile-nav" role="button" tabindex="0">
                         <i class="mobile-nav-icon"></i>
@@ -66,25 +55,25 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <div class="inner-nav desktop-nav">
                         <ul class="clearlist local-scroll">
                             <li>
-                                <a href="/" class="mn-has-sub active">Accueil</a>
+                                <a href="/">Accueil</a>
                             </li>
                             <li>
-                                <a href="/cours-de-couture" class="mn-has-sub">Cours de couture</a>
+                                <a href="/cours-de-couture">Cours de couture</a>
                             </li>
                             <li>
-                                <a href="/retouches" class="mn-has-sub">Retouches</a>
+                                <a href="/retouches">Retouches</a>
                             </li>
                             <li>
-                                <a href="/creation-sur-mesure" class="mn-has-sub">Créations sur mesure</a>
+                                <a href="/creation-sur-mesure">Créations sur mesure</a>
                             </li>
                             <li>
-                                <a href="/atelier-zero-dechets" class="mn-has-sub">Atelier zéro dechets</a>
+                                <a href="/atelier-zero-dechets">Atelier zéro dechets</a>
                             </li>
                             <li>
-                                <a href="/mercerie" class="mn-has-sub">Mercerie</a>
+                                <a href="/mercerie">Mercerie</a>
                             </li>
                             <li>
-                                <a href="/contact" class="mn-has-sub">Contact</a>
+                                <a href="/contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -124,7 +113,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                             </div>
                                             <h4 class="alt-features-title">Contact</h4>
                                             <div class="alt-features-descr clearlinks">
-                                                <div><a href="mailto:">email</a></div>
+                                                <div><a href="mailto:les.toiles.3c2r@gmail.com">les.toiles.3c2r@gmail.com</a></div>
                                                 <div><a href="tel:0661591091">06 61 59 10 91</a></div>
                                             </div>
                                         </div>
@@ -142,19 +131,18 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                             </div>
                                             <h4 class="alt-features-title">Adresse</h4>
                                             <div class="alt-features-descr">
-                                                123 King Street,<br> London W6 9JG,<br> United Kingdom 
+                                            63 rue Jules Guesde,<br> Lys-Les-Lannoy,<br> 59390
                                             </div>
                                         </div>
                                     </div>
                                     <!-- End Contact Item -->
-
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 mb-sm-50">
                                 <!-- Contact Form -->
-                                <form class="form contact-form pe-lg-5" id="contact_form">
+                                <form action="<?= URL ?>assets/php/phpMailer.php" method="POST" class="form contact-form pe-lg-5" id="contact_form">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <!-- Name -->
@@ -186,13 +174,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                                 </button>
                                             </div>                              
                                         </div>
-                                        <div class="col-lg-7">
-                                            <!-- Inform Tip -->
-                                            <div class="form-tip pt-20 pt-sm-0 mt-sm-20">
-                                                <i class="icon-info size-16"></i>
-                                                All the fields are required. By sending the form you agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.
-                                            </div>
-                                        </div>
                                     </div>
                                     <div id="result" role="region" aria-live="polite" aria-atomic="true"></div>
                                 </form>
@@ -201,7 +182,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <div class="col-md-6 d-flex align-items-stretch">
                                 <!-- Google Map -->
                                 <div class="map-boxed">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3071.5318265717196!2d-75.60465104752062!3d39.660249785873326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c703f3cdadbfdb%3A0x80d20252268fc006!2zMjQ1IFF1aWdsZXkgQmx2ZCBzdGUgaywgTmV3IENhc3RsZSwgREUgMTk3MjAsINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1662469609333!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.6128707933717!2d3.203314077384248!3d50.671447971635125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c327d6a9243e47%3A0x7cbf1454b40b8554!2s63%20Rue%20Jules%20Guesde%2C%2059390%20Lys-lez-Lannoy!5e0!3m2!1sfr!2sfr!4v1721919824280!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                                 <!-- End Google Map -->
                             </div>
@@ -212,39 +193,29 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
             </main>
             
             <!-- Footer -->
-            <footer class="page-section bg-pink footer pb-30">
+            <footer class="page-section bg-pink footer pb-30 pt-80">
                 <div class="container">
-                    
-                    <div class="row pb-120 pb-sm-80 pb-xs-50">
-                                                
+                    <div class="row pb-50 pb-sm-80 pb-xs-50">
                         <div class="col-md-4 col-lg-3 text-gray mb-sm-50">
-                            
                             <div class="mb-30">
-                                <img src="<?= URL ?>assets/images/logo-dark.svg" width="105" height="34" alt="Your Company Logo" />
+                                <img src="<?= URL ?>assets/images/logo.svg" width="105" height="34" alt="Logo de la boutique" />
                             </div>
-                            
                             <p>
                                 Chez les Toiles 3C2R, découvrez les joies et le plaisir de la couture : ateliers pour tous les âges, réparations, créations sur mesure
                             </p>
-                            
                             <div class="clearlinks">                                
-                                <strong>T.</strong> <a href="tel:+18376528800">+1 837 652 8800</a>
+                                <strong>Tel : </strong><a href="tel:0661591091">06 61 59 10 91</a>
                             </div>
-                            
                             <div class="clearlinks">
-                                <strong>E.</strong> <a href="mailto:support@bestlooker.pro">support@bestlooker.pro</a>
+                                <strong>Email : </strong><a href="mailto:les.toiles.3c2r@gmail.com">les.toiles.3c2r@gmail.com</a>
                             </div>
-                            
                         </div>
                         
                         <div class="col-md-7 offset-md-1 offset-lg-2">                            
                             <div class="row mt-n30">
-                                
                                 <!-- Footer Widget -->
                                 <div class="col-sm-4 mt-30">
-                                    
                                     <h3 class="fw-title">Site web</h3>
-                                    
                                     <ul class="fw-menu clearlist">                                        
                                         <li><a href="/">Accueil</a></li>
                                         <li><a href="/cours-de-couture">Cours de couture</a></li>
@@ -254,61 +225,47 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                         <li><a href="/mercerie">Mercerie</a></li>
                                         <li><a href="/contact">Contact</a></li>
                                     </ul>
-                                    
                                 </div>
                                 <!-- End Footer Widget -->
                                 
                                 <!-- Footer Widget -->
                                 <div class="col-sm-4 mt-30">
-                                    
                                     <h3 class="fw-title">Réseaux sociaux</h3>
-                                    
                                     <ul class="fw-menu clearlist">
                                         <li>
-                                            <a href="#" rel="noopener nofollow" target="_blank">
+                                            <a href="https://www.instagram.com/lestoiles3c2r/" rel="noopener nofollow" target="_blank">
                                                 <i class="fa-instagram"></i>
                                                 Instagram
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" rel="noopener nofollow" target="_blank">
+                                            <a href="https://www.facebook.com/LesToiles3C2R/?locale=fr_FR" rel="noopener nofollow" target="_blank">
                                                 <i class="fa-facebook"></i>
                                                 Facebook
                                             </a>
                                         </li>
                                     </ul>
-                                    
                                 </div>
                                 <!-- End Footer Widget -->
                                 
                                 <!-- Footer Widget -->
                                 <div class="col-sm-4 mt-30">
-                                    
                                     <h3 class="fw-title">Legal & Press</h3>
-                                    
                                     <ul class="fw-menu clearlist">                                     
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Terms & Conditions</a></li>
-                                        <li><a href="#">Presskit</a></li>
+                                        <li><a href="/mentions-legales">Mentions légales</a></li>
                                     </ul>
-                                    
                                 </div>
                                 <!-- End Footer Widget -->                                
-                                
                             </div>                            
                         </div>
-                        
                     </div>
                     
                     <!-- Footer Text -->
                     <div class="row text-gray">
-                        
                         <div class="col-md-4 col-lg-3">
                             <b>© LesToiles3C2R 2024.</b>
                         </div>
-                        
                         <div class="col-md-7 offset-md-1 offset-lg-2 clearfix">
-                            
                             <!-- Back to Top Link -->
                             <div class="local-scroll float-end mt-n20 mt-sm-10">
                                 <a href="#top" class="link-to-top">                                
@@ -317,16 +274,12 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 </a>
                             </div>
                             <!-- End Back to Top Link -->
-                            
                         </div>
-                        
                     </div>
                     <!-- End Footer Text --> 
-                    
                 </div>                 
             </footer>
             <!-- End Footer -->
-        
         </div>
         <!-- End Page Wrap -->      
         
@@ -335,9 +288,9 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
         <script src="<?= URL ?>assets/js/bootstrap.bundle.min.js"></script>
         <script src="<?= URL ?>assets/js/plugins.js"></script>
         <script src="<?= URL ?>assets/js/jquery.ajaxchimp.min.js"></script>             
-        <script src="<?= URL ?>assets/js/contact-form.js"></script>        
+        <!-- <script src="<?= URL ?>assets/js/contact-form.js"></script> -->   
         <script src="<?= URL ?>assets/js/all.js"></script> 
         <!-- End JS -->       
         
     </body>
-</html>ain
+</html>

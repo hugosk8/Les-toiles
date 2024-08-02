@@ -67,7 +67,7 @@
             <div class="col-lg-7 col-xl-7 d-flex align-items-center mb-md-60 mb-sm-40">
                 <div class="w-100">
                     <h3 class="section-title mb-30">
-                        Découvrez les richesses de la mercerie des Toiles <br> 3C2R à Lille
+                        Découvrez les richesses de la mercerie des Toiles 3C2R à Lille
                     </h3>
                     <p class="section-descr mb-50 mb-sm-30">
                         En proposant des cours et des ateliers, j’ai rapidement compris que mes prestations pour mes clients ne seraient pas complètes sans proposer une gamme de produits de mercerie. C’est pourquoi j’ai créé un espace mercerie dans mon atelier à Lille. Vous y trouverez tout ce dont vous avez besoin pour vos projets de couture et pour réaliser de véritables chefs-d’œuvre ne tenant qu’à un fil... mais quel fil !
@@ -77,10 +77,10 @@
             <!-- End Section Text -->
             
             <!-- Image Column -->
-            <div class="col-lg-5 col-xl-5 d-flex align-items-center">
+            <div class="col-lg-5 col-xl-5 d-flex align-items-center justify-content-center">
                 <div class="position-relative">
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/mercerie/working1.webp" class="image-fullwidth relative" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/mercerie/working1.webp" class="image-fullwidth relative" alt="Etagere avec plusieurs couleurs de fils differentes" />
                     </div>
                 </div>                             
             </div>
@@ -93,12 +93,12 @@
 <!-- Benefits Section -->
 <section class="page-section pt-0" id="mercerie-sect-3">
     <div class="container position-relative">
-        <div class="row mt-6">
+        <div class="row mt-6 mobile-reverse">
             <!-- Image Column -->
-            <div class="col-lg-7 col-xl-6 offset-xl-1-right d-flex align-items-center" style="margin-right:8.33333333%">
+            <div class="col-lg-7 col-xl-6 offset-xl-1-right d-flex align-items-center justify-content-center" style="margin-right:8.33333333%">
                 <div class="position-relative">
                     <div class="position-relative overflow-hidden mb-5">
-                        <img src="<?= URL ?>assets/images/mercerie/working2.webp" class="image-fullwidth relative large" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/mercerie/working2.webp" class="image-fullwidth relative large" alt="Differents tissus à motifs de toutes les couleurs" />
                     </div>
                 </div>                             
             </div>
@@ -233,7 +233,7 @@
 <!-- Benefits Section -->
 <section class="page-section pb-0 pt-70" id="mercerie-list">
     <div class="container position-relative">
-        <div class="row mb-6">
+        <div class="row mb-6 mobile-reverse">
             <!-- Section Text -->
             <div class="col-lg-5 col-xl-5 d-flex align-items-center mb-md-60 mb-sm-40">
                 <div class="w-100">
@@ -257,21 +257,22 @@
             <!-- End Section Text -->   
             
             <!-- Image Column -->
-            <div class="col-lg-7 col-xl-6 offset-xl-1 d-flex align-items-center">
+            <div class="col-lg-7 col-xl-6 offset-xl-1 d-flex align-items-center justify-content-center">
                 <div class="position-relative">
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/mercerie/working3.webp" class="image-fullwidth relative large first" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/mercerie/working3.webp" class="image-fullwidth relative large first img-mb" alt="Homme en train de travailler dos à un mur de fils de couture des toutes les couleurs" />
                     </div>
                 </div>                             
             </div>
             <!-- End Image Column -->
         </div>
+
         <div class="row">  
             <!-- Image Column -->
-            <div class="col-lg-7 col-xl-6 d-flex align-items-center">
+            <div class="col-lg-7 col-xl-6 d-flex align-items-center justify-content-center">
                 <div class="position-relative">
                     <div class="position-relative overflow-hidden">
-                        <img src="<?= URL ?>assets/images/mercerie/working4.webp" class="image-fullwidth relative large first" alt="Image Description" />
+                        <img src="<?= URL ?>assets/images/mercerie/working4.webp" class="image-fullwidth relative large first img-mb" alt="Etagere avec plusieurs couleurs de fils et tissus" />
                     </div>
                 </div>                             
             </div>
@@ -298,7 +299,7 @@
                 </div>
             </div>
             <!-- End Section Text -->    
-            <div class="col-md-10 col-lg-12 mt-6 d-flex justify-content-center">
+            <div class="col-md-10 col-lg-12 mt-6 d-flex justify-content-center end-text">
                 <p class="section-descr mb-50 mb-sm-30">
                     Nos produits de mercerie sont ceux que j’utilise pour mes cours et ateliers de couture. Pendant ces cours (lien COURS), vous apprendrez à utiliser chaque fourniture de manière efficace. Que ce soit pour des projets de couture DIY, des cours de couture pour débutants, ou des ateliers de couture créative, vous aurez accès à tout le nécessaire pour mener à bien vos créations. La mercerie des Toiles
                     <br>

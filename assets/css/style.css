@@ -278,6 +278,7 @@ div:focus.focus-visible{
 img:not([draggable]), embed, object, video{
     max-width: 100%;
     height: auto;
+    /* width: 70%; */
 }
 .image-fullwidth img{
     width: 100%;
@@ -3256,8 +3257,6 @@ html:not(.mobile) .wow-p{
 .appear-animate .wow.scaleOutIn{
     opacity: 1;
     transform: scale(1.2);
-    width: 300px;
-    height: 400px;
 }
 .appear-animate .wow.animated,
 .appear-animate .wow.scaleOutIn.animated,
@@ -8608,7 +8607,7 @@ a.portfolio-5-link:hover .portfolio-5-title span{
     transform: translateZ(0.1px);
     transition: all .5s var(--ease-out-short);
     width: 400px;
-    height: 475px;
+    height: auto;
 }
 .post-prev-img a:hover img{
     transform: scale(1.05) translateZ(0.1px);
@@ -8660,7 +8659,6 @@ a.portfolio-5-link:hover .portfolio-5-title span{
     border-radius: 50%;
 }
 .post-prev-text{
-    margin-bottom: 30px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: normal;
